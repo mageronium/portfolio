@@ -6045,6 +6045,25 @@ button.close {
   text-align: center;
 }
 
+.carousel-caption-bet {
+  position: absolute;
+  right: 15%;
+  bottom: 40%;
+  left: 15%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: center;
+}
+.Ani {
+    0%   {background-color:red; bottom:0px; top:0px;}
+    25%  {background-color:yellow; bottom:200px; top:0px;}
+    50%  {background-color:blue; bottom:200px; top:200px;}
+    75%  {background-color:green; bottom:0px; top:200px;}
+    100% {background-color:red; bottom:0px; top:0px;}
+    }
+
 .align-baseline {
   vertical-align: baseline !important;
 }
