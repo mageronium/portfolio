@@ -6220,6 +6220,10 @@ button.bg-dark:focus {
   border-color: #007bff !important;
 }
 
+.border-for-img {
+  border: 5px solid #007bff;
+}
+
 .border-secondary {
   border-color: #6c757d !important;
 }
