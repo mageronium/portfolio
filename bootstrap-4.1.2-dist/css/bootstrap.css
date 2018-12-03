@@ -1605,6 +1605,18 @@ pre code {
   height: 75%;
 }
 
+.foot {
+  
+}
+
+.footer-img {
+  transition: .5s ease;
+}
+
+.foot:hover .footer-img {
+  transform: rotate(360deg);
+}
+
 div .indent {
   text-indent: 30px;
 }
