@@ -1594,6 +1594,44 @@ pre code {
   background-color: #9fcdff;
 }
 
+.image {
+  transition: .5s ease;
+  width: 100%;
+  height: auto;
+}
+
+.contactme-img {
+  width: 75%;
+  height: 75%;
+}
+
+div .indent {
+  text-indent: 30px;
+}
+
+.col-sm-3:hover .image {
+  width: 0%;
+  overflow: hidden;
+}
+
+.col-sm-3:hover .border-for-img {
+  visibility: hidden;
+}
+
+.contactmebutton {
+  visibility: hidden;
+}
+
+.col-sm-3:hover .contactmebutton {
+  top: 50%;
+  left: 50%;
+  visibility: visible;
+}
+
+/*.contactmebutton:hover {
+  background-color: pink;
+}*/
+
 .table-secondary,
 .table-secondary > th,
 .table-secondary > td {
@@ -2370,6 +2408,10 @@ fieldset:disabled a.btn {
   color: #fff;
   background-color: #007bff;
   border-color: #007bff;
+}
+
+.black {
+  background-color: #000;
 }
 
 .btn-primary:hover {
@@ -6185,7 +6227,7 @@ button.bg-dark:focus {
 }
 
 .border-right {
-  border-right: 1px solid #dee2e6 !important;
+  border-right: 10px solid #dee2e6 !important;
 }
 
 .border-bottom {
@@ -6193,7 +6235,7 @@ button.bg-dark:focus {
 }
 
 .border-left {
-  border-left: 1px solid #dee2e6 !important;
+  border-left: 10px solid #dee2e6 !important;
 }
 
 .border-0 {
@@ -6222,6 +6264,7 @@ button.bg-dark:focus {
 
 .border-for-img {
   border: 5px solid #007bff;
+  transition: .5s ease;
 }
 
 .border-secondary {
