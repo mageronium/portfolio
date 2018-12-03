@@ -1594,17 +1594,7 @@ pre code {
   background-color: #9fcdff;
 }
 
-.image {
-  transition: .5s ease;
-  width: 100%;
-  height: auto;
-}
-
-.contactme-img {
-  width: 75%;
-  height: 75%;
-}
-
+/*allows footer animation*/
 .foot {
   
 }
@@ -1616,9 +1606,16 @@ pre code {
 .foot:hover .footer-img {
   transform: rotate(360deg);
 }
-
+/*allows footer animation functions end here*/
+/*allows indention*/
 div .indent {
   text-indent: 30px;
+}
+/*allows image animations*/
+.image {
+  transition: .5s ease;
+  width: 100%;
+  height: auto;
 }
 
 .col-sm-3:hover .image {
@@ -1630,6 +1627,11 @@ div .indent {
   visibility: hidden;
 }
 
+.contactme-img {
+  width: 75%;
+  height: 75%;
+}
+
 .contactmebutton {
   visibility: hidden;
 }
@@ -1639,7 +1641,7 @@ div .indent {
   left: 50%;
   visibility: visible;
 }
-
+/*allows image animation functions end here*/
 /*.contactmebutton:hover {
   background-color: pink;
 }*/
@@ -6098,7 +6100,7 @@ button.close {
   color: #fff;
   text-align: center;
 }
-
+/*custom captions for carousel*/
 .carousel-caption-bet {
   position: absolute;
   right: 15%;
@@ -6273,7 +6275,7 @@ button.bg-dark:focus {
 .border-primary {
   border-color: #007bff !important;
 }
-
+/*border for images*/
 .border-for-img {
   border: 5px solid #007bff;
   transition: .5s ease;
